@@ -1,10 +1,12 @@
 <?php
 namespace Taiphan\LaravelResponsiveFilemanager\Controllers;
 
-class DialogController {
+class DialogController extends Controller {
 
     public function show(){
-        return view('show');
+        return view('lrfm::index')->with([
+            'config' => config("laravel-responsive-filemanager")
+        ]);
     }
 
 }

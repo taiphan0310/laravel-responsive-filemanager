@@ -26,10 +26,10 @@ class Filemanager {
 
     public static function routes(){
         $namespace = '\\Taiphan\\LaravelResponsiveFilemanager\\Controllers\\';
+        $as = 'taiphan.rlfm.';
+        Route::group(compact('as', 'namespace'), function(){
 
-        Route::group(compact('middleware', 'as', 'namespace'), function(){
-
-            Route::get('/', [DialogController::class, 'show'])->name('lrf.show');
+            Route::get('/', ["uses" => "DialogController@show", "as" => "show"]);
 
         });
     }
