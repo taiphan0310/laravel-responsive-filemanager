@@ -27,5 +27,6 @@
     },
     "require-dev": {
 
-    }
+    },
+    "minimum-stability": "dev"
 }
