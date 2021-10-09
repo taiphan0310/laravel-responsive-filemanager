@@ -21,7 +21,7 @@
         }
     ],
     "require": { 
-        "php": ">=7.4.0",
+        "php": ">=8.0",
         "ext-exif": "*",
         "ext-fileinfo": "*",
         "laravel/framework" : "^8.0"
