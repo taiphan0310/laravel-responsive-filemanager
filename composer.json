@@ -1,15 +1,15 @@
 {
-    "name": "taiphan0310/laravel-responsive-filemanager",
+    "name": "taiphan/laravel-responsive-filemanager",
     "description": "Make responsive filemanager for laravel",
     "autoload": {
         "psr-4": {
-            "Taiphan0310\\LaravelResponsiveFilemanager\\": "src/"
+            "Taiphan\\LaravelResponsiveFilemanager\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Taiphan0310\\LaravelResponsiveFilemanager\\Providers\\"
+                "Taiphan\\LaravelResponsiveFilemanager\\Providers\\Servuce"
             ]
         }
     },
