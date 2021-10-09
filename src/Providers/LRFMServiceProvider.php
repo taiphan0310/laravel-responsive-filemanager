@@ -1,6 +1,6 @@
 <?php
 
-namespace Taiphan0310\LaravelResponsiveFilemanager\Providers;
+namespace Taiphan\LaravelResponsiveFilemanager\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
