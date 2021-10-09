@@ -1,5 +1,5 @@
 <?php
-namespace Taiphan0310\LaravelResponsiveFilemanager\Controllers;
+namespace Taiphan\LaravelResponsiveFilemanager\Controllers;
 
 class DialogController {
 

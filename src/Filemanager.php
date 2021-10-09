@@ -1,11 +1,11 @@
 <?php
 
-namespace Taiphan0310\LaravelResponsiveFilemanager;
+namespace Taiphan\LaravelResponsiveFilemanager;
 
 use Illuminate\Contracts\Config\Repository as Config;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
-use Taiphan0310\LaravelResponsiveFilemanager\Controllers\DialogController;
+use Taiphan\LaravelResponsiveFilemanager\Controllers\DialogController;
 
 class Filemanager {
 
@@ -25,7 +25,7 @@ class Filemanager {
     }
 
     public static function routes(){
-        $namespace = '\\Taiphan0310\\LaravelResponsiveFilemanager\\Controllers\\';
+        $namespace = '\\Taiphan\\LaravelResponsiveFilemanager\\Controllers\\';
 
         Route::group(compact('middleware', 'as', 'namespace'), function(){
 
