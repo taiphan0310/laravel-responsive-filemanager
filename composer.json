@@ -9,7 +9,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Taiphan\\LaravelResponsiveFilemanager\\Providers\\Servuce"
+                "Taiphan\\LaravelResponsiveFilemanager\\Providers\\LRFMServiceProvider"
             ]
         }
     },
