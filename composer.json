@@ -19,11 +19,13 @@
             "email": "taiphan0310@gmail.com"
         }
     ],
-    "require": {
-        "laravel/framework" : "^8.0.0",
+    "require": { 
         "php": ">=7.4.0",
         "ext-exif": "*",
-        "ext-fileinfo": "*",
+        "ext-fileinfo": "*"       
+    },
+    "require-dev": {
+        "laravel/framework" : "^8.0",
         "illuminate/cache": "^8.0",
         "illuminate/config": "^8.0",
         "illuminate/console": "^8.0",
