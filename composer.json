@@ -1,7 +1,7 @@
 {
     "name": "taiphan/laravel-responsive-filemanager",
     "description": "Make responsive filemanager for laravel",
-    "license": "GNU",
+    "license": "AGPL-3.0-or-later",
     "autoload": {
         "psr-4": {
             "Taiphan\\LaravelResponsiveFilemanager\\": "src/"
