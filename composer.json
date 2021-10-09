@@ -23,6 +23,13 @@
         "laravel/framework" : "^8.0.0",
         "php": ">=7.4.0",
         "ext-exif": "*",
-        "ext-fileinfo": "*"
+        "ext-fileinfo": "*",
+        "illuminate/cache": "^8.0",
+        "illuminate/config": "^8.0",
+        "illuminate/console": "^8.0",
+        "illuminate/container": "^8.0",
+        "illuminate/database": "^8.0",
+        "illuminate/http": "^8.0",
+        "illuminate/support": "^8.0"
     }
 }
