@@ -1,12 +1,10 @@
 <?php
 
-namespace Taiphan0310\LaravelResponsiveFilemanager;
+namespace Taiphan0310\LaravelResponsiveFilemanager\Providers;
 
-use Illuminate\Support\Facades\Route;
-use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
+use Illuminate\Support\ServiceProvider;
 
-
-class LRFMServiceProvider extends LaravelServiceProvider{
+class LRFMServiceProvider extends ServiceProvider{
 
     public function boot(){
 
